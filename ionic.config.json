@@ -1,0 +1,8 @@
+{
+  "name": "logistics-together",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "55a06543"
+}
