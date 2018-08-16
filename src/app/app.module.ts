@@ -10,6 +10,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { GooglePlus } from '@ionic-native/google-plus';
+import { LoginPage } from '../pages/login/login';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
+    LoginPage,
     TabsPage
   ],
   imports: [
@@ -29,11 +32,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
+    LoginPage,
     TabsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    GooglePlus,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
